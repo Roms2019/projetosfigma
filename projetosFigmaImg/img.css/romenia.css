@@ -1,25 +1,29 @@
 p {
 color: black;
+font-family: pecita;
 }
 h1{
     color: black;
     font-size: ;
     text-align: center;
+    font-family: pecita;
 }
 h2{
     color: black;
     font-size: ;
     text-align: center;
+    font-family: pecita;
 }
 p {
     color: black;
     font-size: ;
     text-align: justify;
+    font-family: pecita;
     }
 
 }
 
-.img-icon {
-    width: 5px;
-    display: inline-flexbox;
+.absolute {
+    width: 60px;
+    display: flex;
 }
