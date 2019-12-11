@@ -1,13 +1,25 @@
-.fundo_verde{
-    width: 60px;
-    height: 40px;
-    background: #0acf83;
-    display: flex;
+body{
+  margin: 0;
 }
-.casa_container{
-position: absolute;
-width: 500px;
-height: 61.19px;
-left: 21px;
-top: 30px;
+
+.blocos{
+  width: 32%;
+  
+}
+
+.div-color{
+  background-color:seashell;
+}
+
+.grupo-blocos{
+  text-align: center;
+}
+
+.footer{
+  width: 100%;
+  display: flex;
+}
+
+a {
+  text-decoration: none;
 }

@@ -1,20 +1,27 @@
 h1 {
     color: black;
     font-family: pecita;
+    text-align: center;
 }
 h2 {
     color: black;
     font-family: pecita;
+    text-align: center;
 }
 p {
     color: black;
     font-family: pecita;
+    text-align: justify;
 }
 a {
     color: black;
     font-family: pecita;
+    text-align: center;
 }
-img {
+img.figma {
     width: 100px;
     display: flex;
+}
+footer{
+   display: flex: ;
 }
