@@ -1,3 +1,7 @@
+body{
+    margin-top: 10px;
+    align-items: center;
+}
 h1 {
     color: black;
     font-family: pecita;
@@ -18,10 +22,24 @@ a {
     font-family: pecita;
     text-align: center;
 }
+
+.texto{
+    padding: 0 10%;
+}
+
 img.figma {
     width: 100px;
     display: flex;
 }
 footer{
-   display: flex: ;
+    justify-content: center;
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
+
+@media (min-width: 768px) {
+    p{
+        font-size: 20px;
+    }

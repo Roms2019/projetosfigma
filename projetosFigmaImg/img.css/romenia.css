@@ -1,4 +1,13 @@
+.container{
+   width: 10vw;
+   height: 50vw;
+  
+}
 
+body{
+    margin-top: 150px;
+    align-items: center;
+}
 h1{
     color: black;
     font-size: 32px;
@@ -20,12 +29,20 @@ p {
     font-family: pecita;
     }
 
-footer {
-    font-size: 12px;
+.redes-sociais{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
     text-align: center;
-}
+}    
 
 a{
         text-decoration: none;
         align-items: center;
       }
+
+      @media (min-width: 768px) {
+        p{
+            font-size: 20px;
+        }

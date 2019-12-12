@@ -1,25 +1,39 @@
 body{
   margin: 0;
-}
-
-.blocos{
-  width: 32%;
-  
-}
-
-.div-color{
   background-color:seashell;
 }
 
-.grupo-blocos{
+.blocos{
+  width: 100px;
+}
+
+.grupo-blocos {
+  display: flex;
   text-align: center;
 }
 
+
 .footer{
   width: 100%;
-  display: flex;
 }
 
 a {
   text-decoration: none;
+}
+
+@media (min-width: 768px) {
+  .blocos{
+    width: 32%;
+  }
+  .grupo-blocos {
+    width: 60%;
+    justify-content: center;
+    flex-direction: column;
+    padding: 0 20%;
+  }
+
+  footer {
+    padding: 0 20%;
+  }
+  
 }
