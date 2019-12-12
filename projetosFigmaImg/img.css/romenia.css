@@ -5,7 +5,7 @@
 }
 
 body{
-    margin-top: 150px;
+    margin-top: 50px;
     align-items: center;
 }
 h1{
@@ -46,3 +46,7 @@ a{
         p{
             font-size: 20px;
         }
+        body{
+            margin-top: 100px;
+        }
+    }
